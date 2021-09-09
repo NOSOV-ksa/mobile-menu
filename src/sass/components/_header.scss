@@ -1,0 +1,14 @@
+.header__box{
+    background-color: $breand-color;
+}
+
+.nav-section__site-nav{
+    @media screen and(max-width: $tablet) {
+display: none;
+    }
+}
+
+.nav-section__logo-img{
+    margin-left: 20px;
+    padding-top: 6px;
+}

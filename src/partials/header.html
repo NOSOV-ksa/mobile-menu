@@ -1,0 +1,119 @@
+<header class="header">
+    <div class="header__box">
+        <nav class="section nav-section">
+            <div class="nav-section__logo">
+                <img src="./images/logo.png" alt="logo" class="nav-section__logo-img" width="199">
+            </div>
+            <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                <svg width="40" height="40" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z">
+                  </path>
+                </svg>
+              </button>
+            <div class="nav-section__site-nav">
+                <ul class="nav-section__menu-items">
+                    <li class="nav-section__item"><a href="#">Home</a></li>
+                    <li class="nav-section__item"><a href="#">About us</a></li>
+                    <li class="nav-section__item"><a href="#">How it’s made?</a></li>
+                    <li class="nav-section__item"><a href="#">Our products</a></li>
+                    <li class="nav-section__item"><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-section__btn-box">
+                <button class="nav-section__btn-modal" type="button">Buy now</button>
+            </div>
+     <!-- Мобильное меню!!! -->
+            <div class="mobile-menu">
+                <button class="nav-section__btn-close" type="button">closeX</button>
+
+                <div class="mobile-menu__navigation">
+                    <ul class="mobile-menu__items">
+                        <li class="nav-section__item"><a href="#">Home</a></li>
+                        <li class="nav-section__item"><a href="#">About us</a></li>
+                        <li class="nav-section__item"><a href="#">How it’s made?</a></li>
+                        <li class="nav-section__item"><a href="#">Our products</a></li>
+                        <li class="nav-section__item"><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="title-section">
+            <div class="title-section__title-box">
+                <h1 class="title-section__hero-title">ice cream made with <span>passion</span></h1>
+                <div class="title-section__btn-box">
+                    <a href="#" class="title-section__first-link">Products</a>
+                    <a href="#" class="title-section__second-link">How it’s made?</a>
+                </div>
+            </div>
+            <div class="title-section__numbers">
+                <div class="title-section__number-box">
+                    <h2 class="title-section__number-title">16</h2>
+                    <p class="title-section__number-description">cafes</p>
+                </div>
+                <div class="title-section__number-box">
+                    <h2 class="title-section__number-title">23</h2>
+                    <p class="title-section__number-description">food trucks</p>
+                </div>
+            </div>
+        </div>
+        <div class="milk-box">
+            <img src="./images/slider-pic5.png" alt="milk" class="milk-box__img" width="188">
+            <p class="milk-box__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+            <a href="#" class="milk-box__btn">></a>
+        </div>
+        <img src="./images/slider-pic7.png" alt="ice-cream" class="header__hero-image" width="236">
+        <img src="./images/slider-pic4.png" alt="ice-cream" class="header__hero-image" width="293">
+    </div>
+</header>
+
+
+
+
+<div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="menu-toggle js-close-menu">
+      <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" width="14" height="14">
+        <path fill-rule="evenodd"
+          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+          clip-rule="evenodd">
+        </path>
+      </svg>
+    </button>
+    <div class="mobile--wrapper">
+        <button class="nav-section__btn-modal" type="button">Buy now</button>
+      <ul class="mobile-menu">
+        <li class="mobile-menu__item"><a href="./index.html" class="mobile-menu__link">Студия</a></li>
+        <li class="mobile-menu__item"><a href="" class="mobile-menu__link">Портфолио</a></li>
+        <li class="mobile-menu__item"><a href="" class="mobile-menu__link">Контакты</a></li>
+      </ul>
+
+      <div class="mobile-menu--inner">
+        <ul class="mobile-contact">
+          <li class="mobile-contact__item">
+            <a class="mobile-contact__phone" href="tel:+380961111111" title="our phone">
+              +38 096 111 11 11
+            </a>
+          </li>
+          <li class="mobile-contact__item">
+            <a class="mobile-contact__mail" href="mailto:info@devstudio.com" title="our email">
+              info@devstudio.com
+            </a>
+          </li>
+        </ul>
+        <ul class="mobile-social">
+          <li class="mobile-social__item">
+            <a class="mobile-social__link" href="">Instagram</a>
+          </li>
+          <li class="mobile-social__item">
+            <a class="mobile-social__link" href="">Twitter</a>
+          </li>
+          <li class="mobile-social__item">
+            <a class="mobile-social__link" href="">Facebook</a>
+          </li>
+          <li class="mobile-social__item">
+            <a class="mobile-social__link" href="">Linkedin</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+<script defer src="./js/mobile-menu.js"></script>

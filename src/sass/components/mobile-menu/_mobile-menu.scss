@@ -1,0 +1,154 @@
+
+// // кнопка===================
+
+.menu-toggle {
+    min-height: 40px;
+    min-width: 40px;
+   display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    @media screen and (min-width: $tablet) {
+      display: none;
+    }
+  }
+
+  .menu-container .menu-toggle {
+    display: block;
+    position: absolute;
+    top: 23px;
+    right: 28px;
+    color: #fff;
+  }
+
+  .menu-toggle:hover,
+  .menu-toggle:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .menu-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 48px 40px;
+    //background-color: $complementary-color;
+    background-color: tomato;
+    z-index: 275;
+    transform: translateX(100%);
+    // @include transition;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    overflow-y: scroll;
+  }
+
+//   .menu-container.is-open {
+//     transform: translateX(0);
+//   }
+
+//мобильное меню=================
+
+//   .mobile--wrapper {
+//     height: 100%;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+//   }
+
+//   .mobile-menu {
+//     padding: 0;
+//     margin: 0;
+//     list-style: none;
+//   }
+
+//   .mobile-menu__item:not(:last-child) {
+//     margin-bottom: 32px;
+//   }
+
+//   .mobile-menu__link {
+//    // @extend %main-font;
+//    font-family: 'Courier New', Courier, monospace;
+//     font-size: 40px;
+//     line-height: 1.172;
+//     padding: 0px;
+//     margin: 0px;
+//     //@include transition;
+//     transition-duration: 250ms;
+//   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//     // &:hover,
+//     // &:focus {
+//     //   color: $accent-color;
+//     // }
+//   }
+
+//   // мобильные меню, контакты===================
+
+//   .mobile-contact__item {
+//     margin-bottom: 64px;
+//     &:not(:last-child) {
+//       margin-bottom: 32px;
+//     }
+//   }
+
+//   .mobile-contact__phone {
+//     //@extend %main-font;
+//     font-family: 'Courier New', Courier, monospace;
+//     letter-spacing: 0.01em;
+//     font-size: 34px;
+//     line-height: 1.17;
+//     //color: $accent-color;
+//   }
+
+//   .mobile-contact__mail {
+//     //@extend %main-font;
+//     font-family: 'Courier New', Courier, monospace;
+//     font-size: 24px;
+//     line-height: 1.17;
+//     //color: $secondary-color-text;
+//   }
+
+//   // мобильное меню соцсети=================
+
+//   .mobile-social {
+//     //@include display-flex-centr;
+//     display: flex;
+//     align-items: center;
+//     justify-content: flex-start;
+//     align-items: center;
+//     position: relative;
+//   }
+
+//   .mobile-social__item {
+//     display: flex;
+//     &:not(:last-child) {
+//       margin-right: 10px;
+//     }
+//   }
+
+//   .mobile-social__item::after {
+//     content: '\007C';
+//     padding-left: 10px;
+//     color: rgba(33, 33, 33, 0.2);
+//     display: flex;
+//   }
+
+//   .mobile-social__item:last-child::after {
+//     content: '';
+//   }
+
+//   .mobile-social__link {
+//     //@extend %main-font;
+//     display: block;
+//     font-size: 18px;
+//     line-height: 1.22;
+//     letter-spacing: 0.01em;
+//     //color: $accent-color;
+//     &:not(:last-child) {
+//       padding-right: 5px;
+//     }
+//   }
